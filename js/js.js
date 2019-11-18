@@ -113,8 +113,8 @@ $(function () {
              IsAdd = false ;
              // 删除前面的图片
              // $(".Ganarote>img").remove();
-			console.log($(".Ganarote").css("width"));
-			console.log($(".Ganarote").css("height"));
+			// console.log($(".Ganarote").css("width"));
+			// console.log($(".Ganarote").css("height"));
              // 生成0-8随机数
               var PosiIndex =  Math.floor(Math.random() * GanarotePosition.length) ;
 
@@ -128,7 +128,7 @@ $(function () {
               var $img = $("<img src=\"\"  alt=\"\">") ;  //
               Img =  $(".Ganarote").append($img) ;  // 添加img标签
 			  Img.css("width","105");
-			  Img.css("width","108");
+			  Img.css("height","108");
               // 0为 小灰灰
               temp = Ran ==0 ? XImgName : HImgName ;
 
