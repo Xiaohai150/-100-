@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    list-style: none;
+}
+.container{
+    background: url("../imgs/game_bg.jpg");
+    width: 320px;
+    height: 480px;
+    margin: 48px auto 0px;
+    position: relative;
+
+}
+.score{
+    color: white;
+    margin-left: 58px;
+}
+.timer{
+    width: 180px;
+    height: 16px;
+    margin: 24px 62px 0 ;
+    background: #ff5402;
+    border-radius: 8px;
+}
+a{
+    text-decoration: none;
+}
+
+.StartGame , .Restart ,.ReturnMain
+{
+    color: white ;
+    display: block;
+    width:158px ;
+    height: 38px;
+    font-size: 18px;
+    border-radius: 12px;
+    text-align: center;
+    line-height: 38px;
+
+}
+.StartGame{
+    margin: 238px auto ;
+    background: linear-gradient(#e04d35,#cc160f);
+}
+.GameRule{
+     position: absolute;
+     bottom: 0px;
+     display: block;
+     height: 28px;
+     width: 100%;
+     text-align: center;
+     color: #2d2d2d;
+     background: #ccc ;
+     line-height: 28px;
+ }
+.RuleContent , .GameOverContent{
+    width: 100%;
+    height: 100%;
+    /*padding: 88px 0 152px 0;*/
+    position: absolute;
+    top: 0px;
+    left: 0px;
+display: none;
+}
+
+.Bg{
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.5;
+  pointer-events: none;
+}
+.RuleContent>ul{
+    height: auto;
+    width: 100%;
+    position: absolute;
+    top: 88px;
+}
+.RuleContent li{
+    width: 100%;
+    color: white;
+    line-height: 48px;
+    text-align: center;
+}
+.RuleContent ul li:last-child a{
+    color: red;
+    font-size: 18px;
+}
+.GameOver{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid red;
+}
+.GameOver p{
+    font-size: 32px;
+    color: #d73525;
+    font-weight: 600;
+    margin-top: 238px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    text-shadow: white 2px 2px;
+}
+.GameOver .Restart{
+    background: linear-gradient(#6eaacf,#1c89da);
+    margin:39px auto 0 ;
+}
+.GameOver .ReturnMain{
+    background: linear-gradient( #62ffac , #22ff42);
+    margin: 4px auto;
+}
+.Ganarote{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+	user-select: none;
+}
